@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:background="@color/white"
+    android:padding="@dimen/_18sdp"
+    android:scrollbars="none"
+    tools:context=".activity.SingInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/crnew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create new count"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:textSize="24dp"/>
+
+
+        <FrameLayout
+            android:id="@+id/layoutImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24sdp">
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="@dimen/_80sdp"
+                android:id="@+id/imgprofile"
+                android:background="@drawable/back_image"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"
+                android:layout_height="@dimen/_80sdp"/>
+            <TextView
+                android:id="@+id/textAddimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Chọn ảnh "
+                android:textColor="#333"/>
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/nameip"
+            android:layout_width="match_parent"
+            android:layout_height="68sp"
+            android:layout_marginTop="36sp"
+            android:background="@drawable/inputtext_bg"
+            android:hint="Tên người dùng"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:paddingEnd="10sp"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/inputtext_bg"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/primary_text"
+            android:paddingStart="20sp"
+            android:paddingEnd="10sp"
+            android:id="@+id/emailip"
+            android:layout_height="68sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/inputtext_bg"
+            android:hint="Mật khẩu"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="@color/primary_text"
+            android:paddingStart="20sp"
+            android:paddingEnd="10sp"
+            android:id="@+id/passip"
+            android:layout_height="68sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/inputtext_bg"
+            android:hint="Nhập lại mật khẩu"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="@color/primary_text"
+            android:paddingStart="20sp"
+            android:paddingEnd="10sp"
+            android:id="@+id/passconfirmip"
+            android:layout_height="68sp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/signup"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="#D500F9"
+                android:text="Đăng kí"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                app:backgroundTint="#F3FFFC"
+                app:background="@drawable/inputtext_bg"
+                app:cornerRadius="@dimen/_35sdp"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:id="@+id/signintext"
+            android:layout_marginTop="20sp"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/_12sdp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

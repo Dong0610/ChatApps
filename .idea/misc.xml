@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/drawable/back_image.xml" value="0.2755208333333333" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/drawable/back_recevie_mess.xml" value="0.2755208333333333" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/drawable/back_send_mess.xml" value="0.2755208333333333" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/drawable/background_content_bottom.xml" value="0.2755208333333333" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/drawable/background_icon.xml" value="0.2755208333333333" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/drawable/background_input.xml" value="0.2755208333333333" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/drawable/backgrount_chat.xml" value="0.2755208333333333" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/drawable/ic_search.xml" value="0.2755208333333333" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/layout/activity_chat.xml" value="0.259375" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/layout/activity_update_info.xml" value="0.259375" />
+        <entry key="..\:/Study/2021-2022 (Ki 1)/Android/BTL/MyAppFull/MyApp/app/src/main/res/layout/activity_user.xml" value="0.2296195652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

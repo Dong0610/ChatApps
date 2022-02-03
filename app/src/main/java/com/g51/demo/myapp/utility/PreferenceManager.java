@@ -1,0 +1,57 @@
+package com.g51.demo.myapp.utility;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+public class PreferenceManager {
+
+    private  final SharedPreferences sharedPreferences;
+    public PreferenceManager(Context context){
+        sharedPreferences= context.getSharedPreferences(Contanst.KEY_PREFERENCE_NAME,Context.MODE_PRIVATE);
+
+    }
+
+    public  void putBoollean(String key, Boolean value){
+        SharedPreferences.Editor editor= sharedPreferences.edit();
+        editor.putBoolean(key,value);
+        editor.apply();
+    }
+
+    public Boolean getBollean(String key){
+        return  sharedPreferences.getBoolean(key,false);
+    }
+
+    public void putString (String key,String value){
+        SharedPreferences.Editor editor= sharedPreferences.edit();
+        editor.putString(key,value);
+        editor.apply();
+    }
+    public  String getString (String key){
+        return  sharedPreferences.getString(key,null);
+    }
+
+    public  void  clear(){
+        SharedPreferences.Editor editor=sharedPreferences.edit();
+        editor.clear();
+        editor.apply();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

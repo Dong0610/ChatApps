@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:background="@color/white"
+    android:padding="@dimen/_18sdp"
+    android:scrollbars="none"
+    tools:context=".usermain.UpdateInfo">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgback"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/background_icon"
+        android:padding="@dimen/_6sdp"
+        android:src="@drawable/ic_back"
+        android:tint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout
+        android:id="@+id/layoutImage"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="@dimen/_95sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imgprofile"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:background="@drawable/back_image"
+            android:scaleType="centerCrop"
+            app:riv_oval="true"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="15dp" />
+    </FrameLayout>
+
+    <EditText
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:id="@+id/nename"
+        android:layout_width="match_parent"
+        android:layout_height="68sp"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/inputtext_bg"
+        android:hint="Tên mới"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:paddingEnd="10sp"
+        android:textColor="@color/primary_text" />
+
+    <EditText
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:id="@+id/oldpass"
+        android:layout_width="match_parent"
+        android:layout_height="68sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/inputtext_bg"
+        android:hint="Mật khẩu"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:paddingStart="20sp"
+        android:paddingEnd="10sp"
+        android:textColor="@color/primary_text" />
+
+    <EditText
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:id="@+id/newpass"
+        android:layout_width="match_parent"
+        android:layout_height="68sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/inputtext_bg"
+        android:hint="Mât khẩu mới"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:paddingEnd="10sp"
+        android:textColor="@color/primary_text" />
+    <EditText
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:id="@+id/status"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/bg_status"
+        android:hint="Trạng thái"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:paddingEnd="10sp"
+        android:textColor="@color/primary_text" />
+
+
+    <LinearLayout
+
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/close"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_weight="1"
+            android:text="Thoát"
+            android:textAllCaps="false"
+            android:textColor="#D500F9"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            app:background="@drawable/inputtext_bg"
+            app:backgroundTint="#F3FFFC"
+            app:cornerRadius="@dimen/_35sdp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/update"
+            android:layout_weight="1"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="#D500F9"
+            android:text="Lưu lại"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            app:backgroundTint="#F3FFFC"
+            app:background="@drawable/inputtext_bg"
+            app:cornerRadius="@dimen/_35sdp"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

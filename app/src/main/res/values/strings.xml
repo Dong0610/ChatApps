@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="well_come_back">Well come back</string>
+    <string name="sign_up">sign up</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="select_user">Select user</string>
+    <string name="message">message</string>
+    <string name="chat">Chat</string>
+    <string name="i_u_kho_n_v_ch_nh_s_ch_b_o_m_t">Điều khoản và chính sách bảo mật</string>
+    <string name="b_n_ngh_g_n">Bạn nghĩ gì nè!!!</string>
+    <string name="h_y_vi_t_g_nh">Hãy viết gì đó nhé...</string>
+    <string name="ng">Đã đăng</string>
+    <string name="b_i_vi_t">Bài đã viết</string>
+    <string name="s_a_th_ng_tin">Sửa thông tin</string>
+    <string name="b_i_vi_t_c_a_b_n_vi_t">Bài viết của bạn đã viết</string>
+    <string name="csbm"></string>
+    <string name="resp"></string>
+    <string name="b_n_h_y_g_i_email_n_ng_t_i_kho_n_bdong0610_gmail_com_b_ng_ch_nh_email_m_b_n_ng_k_t_i_kho_n_c_a_m_nh_k_m_theo_n_i_dung_chat_resetpass_v_i_ph_n_h_i_c_a_ng_i_qu_n_l">Bạn hãy gửi email đến đúng tài khoản: bdong0610@gmail.com bằng chính email mà bạn đã đăng kí tài khoản của mình kèm theo nội dung: Chat:::ResetPass và đợi phản hồi của người quản lí.</string>
+</resources>
